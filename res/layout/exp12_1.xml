@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Radio Button"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:textStyle="bold"/>
+
+    <RadioButton
+        android:id="@+id/r1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Radio Button 1" />
+
+    <RadioButton
+        android:id="@+id/r2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Radio Button 2" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group Radio Button"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:textStyle="bold"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/ml"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Male">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/fml"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Show selected"
+        android:onClick="check"
+        />
+
+</LinearLayout>

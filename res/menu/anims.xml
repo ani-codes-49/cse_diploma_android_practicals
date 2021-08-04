@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Clockwise/Anti Clockwise "
+        android:id="@+id/clk"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Zoom in/out"
+        android:id="@+id/zm"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Fade in/out "
+        android:id="@+id/fd"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+
+</menu>
